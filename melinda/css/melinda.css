@@ -33,6 +33,40 @@ hr {
 	width: 1200px;
 	margin: 0 auto;
 }
+.inner {
+	width: 600px;
+	margin: 0 auto;
+}
+h3.twistedintellect{
+	
+    text-transform: uppercase;
+    color: #141313;
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	text-align:center;
+	margin: 40px auto;
+	text-transform: lowercase;
+	line-height: 145%;
+	font-size: 20pt;
+	font-variant: small-caps;
+}
+p.twistedintellect{
+	
+    text-transform: uppercase;
+    color: #424242;
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	text-align:center;
+	margin: 40px auto;
+	text-transform: lowercase;
+	line-height: 145%;
+	font-size: 14pt;
+	font-variant: small-caps;
+}
+p.adjust {
+	padding-bottom: 100px;
+	margin: 0 40px;
+}
 ul.grid-nav {
 	list-style: none;
 	font-size: .85em;
@@ -82,9 +116,16 @@ ul.rig li {
 	-webkit-box-sizing: border-box;
 }
 ul.rig li img {
-	max-width: 100%;
-	height: auto;
+	/*max-width: 100%;
+	height: auto;*/
 	margin: 0 0 10px;
+	position: relative;
+    max-width:  100%;
+    height:200px;
+    overflow:hidden;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
 }
 ul.rig li h3 {
 	margin: 0 0 5px;
